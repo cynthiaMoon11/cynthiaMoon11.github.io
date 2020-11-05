@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pluton Crochet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Plutón<span>.</span></a>
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <!-- <li><a href="#banner" onclick="toggleMenu();">Home</a></li> -->
+            <li><a href="#about" onclick="toggleMenu();">Conóceme</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">Tienda</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">Patrones Gratuitos</a></li>            
+            <li><a href="#contact" onclick="toggleMenu();">Escríbeme</a></li>
+
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>Hola!</h2>
+            <p>El planeta de los amigurimis.</p>
+            <a href="#" class="btn">Tienda</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>C</span>onóceme</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem accusamus, hic quod asperiores numquam
+                    modi ratione fugiat sed nam nulla aliquam. Voluptate fugiat in possimus, suscipit dicta velit
+                    repellat vitae.<br><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa maiores
+                    quas, sunt ducimus error voluptas tempora doloremque, dolores facilis expedita nostrum ipsam eos
+                    totam commodi modi nam? Fugiat, alias!</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText">Our <span>M</span>enu</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Soup</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Pasta</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Salads</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu5.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Soup</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="menu6.jpg">
+                </div>
+                <div class="text">
+                    <h3>Special Pasta</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View all</a>
+        </div>
+    </section>
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText">Our Kitchen <span>E</span>xpert</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="expert1.jpg">
+                </div>
+                <div class="text">
+                    <h3>Experto famoso</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="expert2.jpg">
+                </div>
+                <div class="text">
+                    <h3>Experto famoso</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="expert3.jpg">
+                </div>
+                <div class="text">
+                    <h3>Experto famoso</h2>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="expert4.jpg">
+                </div>
+                <div class="text">
+                    <h3>Experto famoso</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText"><span>C</span>ontact</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <p>
+        </div>
+        <div class="contactForm">
+            <h3>Send Message</h3>
+            <div class="inputBox">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="Email">
+            </div>
+            <div class="inputBox">
+                <textarea placeholder="Message"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="Send">
+            </div>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Cynthia Escobar Luna 2020. <a href="#">All Rigth Reserved</a></p>
+    </div>
+    <script src="main.js"></script>
+    <!-- <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+
+        }
+    </script> -->
+</body>
+
+</html>
